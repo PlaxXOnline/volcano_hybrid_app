@@ -2,5 +2,15 @@
   "appTitle": "Volcano Hybrid App",
   "temperature": "Temperatur",
   "volcano": "Volcano",
-  "settings": "Einstellungen"
+  "settings": "Einstellungen",
+  "connect": "Verbinden",
+  "general": "Allgemein",
+  "display": "Bildschirm",
+  "controls": "Steuerung",
+  "bluetooth": "Bluetooth",
+  "vibration": "Vibration",
+  "displayOnCooling": "Bildschirm bei Abkühlung",
+  "ledBrightness": "LED Helligkeit",
+  "automaticShutOff": "Automatische Abschaltung",
+  "disconnect": "Verbindung trennen"
 }

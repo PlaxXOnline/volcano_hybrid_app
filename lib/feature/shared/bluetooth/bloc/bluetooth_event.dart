@@ -17,3 +17,5 @@ class ConnectToDevice extends BluetoothEvent {
   @override
   List<Object> get props => [device];
 }
+
+class DisconnectDevice extends BluetoothEvent {}

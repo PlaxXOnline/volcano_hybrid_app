@@ -190,6 +190,18 @@ Color? getLineInputHelperTextColor(Set<MaterialState> states) {
   }
 }
 
+Color? getSwitchTileTrackColor(Set<MaterialState> states) {
+  if (states.isDisabled) {
+    return AppTheme._gray04;
+  } else {
+    return AppTheme._gray05;
+  }
+}
+
+Color? getSwitchTileThumbColor(Set<MaterialState> states) {
+  return AppTheme._primary05;
+}
+
 /* ----------------------------------AppTheme----------------------------------- */
 
 class AppTheme {
@@ -362,6 +374,29 @@ class AppTheme {
     floatingLabelAlignment: FloatingLabelAlignment.start,
   );
 
+/* --------------------------------SliderThemes-------------------------------- */
+
+  //Slider Theme
+  static const SliderThemeData sliderTheme = SliderThemeData(
+    activeTrackColor: _primary05,
+    inactiveTrackColor: _gray04,
+    thumbColor: _primary05,
+    valueIndicatorColor: _primary05,
+    valueIndicatorTextStyle: TextStyle(
+      color: _coreWhite,
+    ),
+  );
+
+/* --------------------------------SwitchThemes-------------------------------- */
+
+  //SwitchTile Theme
+  static final SwitchThemeData _customSwitchThemeData = SwitchThemeData(
+    thumbColor: MaterialStateProperty.resolveWith(
+        (states) => getSwitchTileThumbColor(states)),
+    trackColor: MaterialStateProperty.resolveWith(
+        (states) => getSwitchTileTrackColor(states)),
+  );
+
 /* ---------------------------------TextThemes---------------------------------- */
 
   static const TextTheme defaultLightTextTheme = TextTheme(
@@ -490,6 +525,8 @@ class AppTheme {
     bottomNavigationBarTheme: bottomNavigationBarLightThemeData,
     primaryColor: _primary05,
     textTheme: defaultLightTextTheme,
+    sliderTheme: sliderTheme,
+    switchTheme: _customSwitchThemeData,
     useMaterial3: true,
   );
 
@@ -503,6 +540,8 @@ class AppTheme {
     bottomNavigationBarTheme: bottomNavigationBarDarkThemeData,
     primaryColor: _primary05,
     textTheme: defaultDarkTextTheme,
+    sliderTheme: sliderTheme,
+    switchTheme: _customSwitchThemeData,
     useMaterial3: true,
   );
 }

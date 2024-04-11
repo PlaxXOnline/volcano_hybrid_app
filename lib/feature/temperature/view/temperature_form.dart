@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:volcano_hybrid/constants/assets.dart';
-import 'package:volcano_hybrid/widgets/title.dart';
 
 class TemperatureForm extends StatelessWidget {
   const TemperatureForm({super.key});
