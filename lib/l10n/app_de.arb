@@ -1,3 +1,6 @@
 {
-  "appTitle": "Volcano Hybrid App"
+  "appTitle": "Volcano Hybrid App",
+  "temperature": "Temperatur",
+  "volcano": "Volcano",
+  "settings": "Einstellungen"
 }
