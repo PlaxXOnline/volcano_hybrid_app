@@ -1,0 +1,17 @@
+{
+  "appTitle": "Volcano Hybrid App",
+  "workflow": "Workflow",
+  "volcano": "Volcano",
+  "settings": "Settings",
+  "connect": "Connect",
+  "general": "General",
+  "display": "Display",
+  "controls": "Controls",
+  "bluetooth": "Bluetooth",
+  "vibration": "Vibration",
+  "displayOnCooling": "Display On Cooling",
+  "ledBrightness": "LED Brightness",
+  "automaticShutOff": "Automatic Shutoff",
+  "disconnect": "Disconnect",
+  "steps": "Steps"
+}

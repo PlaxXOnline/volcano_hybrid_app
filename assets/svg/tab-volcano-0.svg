@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="Navigation">
+        <g id="VOLCANO-Icon-Passive">
+            <path class="cls-1" d="M19 22h2v2h-2zM3 22h2v2H3zM1 18h22v4H1zM0 16h24v2H0zM8 0h8v3H8z"/>
+            <path class="cls-1" transform="rotate(-30 18.2 8.957)" d="M16.7-.04h3v18h-3z"/>
+            <path class="cls-1" transform="rotate(30 5.797 8.947)" d="M4.3-.04h3v18h-3z"/>
+            <path class="cls-1" d="m12 5.5-5.2 9h10.4l-5.2-9z"/>
+        </g>
+    </g>
+</svg>
