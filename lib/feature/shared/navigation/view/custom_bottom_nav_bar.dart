@@ -22,17 +22,17 @@ class CustomBottomNavBar extends StatelessWidget {
           useLegacyColorScheme: false,
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.thermostat_outlined,
-                  color: state.tabIndex == 0 ? primary : Colors.grey),
-              label: locale.temperature,
-            ),
-            BottomNavigationBarItem(
               icon: SvgPicture.asset(Assets.tabVolcano_0,
                   colorFilter: ColorFilter.mode(
-                      state.tabIndex == 1 ? primary : Colors.grey,
+                      state.tabIndex == 0 ? primary : Colors.grey,
                       BlendMode.srcIn),
                   semanticsLabel: 'A Volcano for Information'),
               label: locale.volcano,
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.cable_rounded,
+                  color: state.tabIndex == 1 ? primary : Colors.grey),
+              label: locale.workflow,
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.settings,

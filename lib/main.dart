@@ -9,7 +9,7 @@ import 'package:volcano_hybrid/feature/shared/bluetooth/bluetooth.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:volcano_hybrid/feature/shared/navigation/navigation.dart';
 import 'package:volcano_hybrid/feature/shared/permission/permission.dart';
-import 'package:volcano_hybrid/feature/temperature/bloc/temperature_bloc.dart';
+import 'package:volcano_hybrid/feature/workflow/bloc/workflow_bloc.dart';
 import 'package:volcano_hybrid/feature/volcano/bloc/volcano_bloc.dart';
 
 void main() {
@@ -40,8 +40,8 @@ class MyApp extends StatelessWidget {
         BlocProvider<VolcanoBloc>(
           create: (_) => VolcanoBloc(),
         ),
-        BlocProvider<TemperatureBloc>(
-          create: (_) => TemperatureBloc(),
+        BlocProvider<WorkflowBloc>(
+          create: (_) => WorkflowBloc(),
         ),
         BlocProvider<SettingsCubit>(
           create: (_) => SettingsCubit(),

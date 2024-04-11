@@ -1,7 +1,7 @@
 // coverage:ignore-file
 
 import 'package:flutter/material.dart';
-import 'package:settings_ui/settings_ui.dart';
+import 'package:flutter_settings_ui/flutter_settings_ui.dart';
 
 /* -------------------------MaterialStateProperties--------------------------- */
 
@@ -211,7 +211,7 @@ class AppTheme {
 
   //BackgroundColor
   static const Color _scaffoldDarkBackgroundColor = Color(0xFF14191F);
-  static const Color _scaffoldLightBackgroundColor = Color(0xFFFFFFFF);
+  static const Color _scaffoldLightBackgroundColor = Color(0xFFededed);
 
   //BottomNavBar BackgroundColor
   static const Color _bottomNavBarBackground = Color(0xFF0C141E);
@@ -459,7 +459,7 @@ class AppTheme {
 
   /* ---------------------------------SettingsThemes---------------------------------- */
   static const SettingsThemeData settingsLightTheme = SettingsThemeData(
-    settingsSectionBackground: _scaffoldLightBackgroundColor,
+    settingsSectionBackground: Colors.white,
     settingsListBackground: Colors.transparent,
     settingsTileTextColor: Colors.black,
     tileDescriptionTextColor: Colors.black,

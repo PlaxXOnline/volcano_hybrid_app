@@ -1,6 +1,6 @@
 {
   "appTitle": "Volcano Hybrid App",
-  "temperature": "Temperatur",
+  "workflow": "Workflow",
   "volcano": "Volcano",
   "settings": "Einstellungen",
   "connect": "Verbinden",
@@ -12,5 +12,6 @@
   "displayOnCooling": "Bildschirm bei Abkühlung",
   "ledBrightness": "LED Helligkeit",
   "automaticShutOff": "Automatische Abschaltung",
-  "disconnect": "Verbindung trennen"
+  "disconnect": "Verbindung trennen",
+  "steps": "Schritte"
 }

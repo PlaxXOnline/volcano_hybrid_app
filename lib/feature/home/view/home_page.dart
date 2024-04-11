@@ -4,7 +4,7 @@ import 'package:volcano_hybrid/feature/home/home.dart';
 import 'package:volcano_hybrid/feature/settings/settings.dart';
 import 'package:volcano_hybrid/feature/shared/bluetooth/bluetooth.dart';
 import 'package:volcano_hybrid/feature/shared/navigation/navigation.dart';
-import 'package:volcano_hybrid/feature/temperature/temperature.dart';
+import 'package:volcano_hybrid/feature/workflow/workflow.dart';
 import 'package:volcano_hybrid/feature/volcano/volcano.dart';
 
 class HomePage extends StatelessWidget {
@@ -48,8 +48,8 @@ class HomePage extends StatelessWidget {
                 child: IndexedStack(
                   index: state.tabIndex,
                   children: const [
-                    TemperatureForm(),
                     VolcanoForm(),
+                    WorkflowForm(),
                     SettingsForm(),
                   ],
                 ),
